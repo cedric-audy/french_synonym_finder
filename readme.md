@@ -1,8 +1,14 @@
 # README
 
+**DISCLAIMER: this repo is the product of a school project for Pierre-Paul Monty (CVM), and made with Afsaneh Sheikhmiri and Samuel Béland.** 
+
 This is a Python 3 and Numpy based simple synonym finder, with a local database provided by sqlite3. When provided with a text corpus, the program indexes every word against those in the database, and produces cooccurrence pairs to be inserted in the DB, based on the specified window size.
 
 When asked to provide synonyms, the program builds a numpy cooccurence matrix from the pairs it has in the DB. If the queried word is in the database, we choose 1 of 3 possible vector comparison methods, and the number of synonyms we want.
+
+Here is an exemple, with the small french corpus (les misérables, les trois mousquetaires, germinal, le ventre de paris) included in the repo:
+
+![python](https://i.imgur.com/rvb7Tg5.png)
 
 ## README (fr) - TP2 PYTHON 
 
