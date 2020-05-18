@@ -1,0 +1,8 @@
+workspace/
+__pycache__/
+.vscode/
+*.pyc
+build
+*.user
+*.bd
+.vscode/
